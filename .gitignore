@@ -1,0 +1,47 @@
+# Blazor output directories
+bin/
+obj/
+
+# Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+
+# NuGet packages
+*.nuget.props
+*.paket.*
+paket.lock
+packages/
+project.lock.json
+.DS_Store
+
+# Build and publish outputs
+*_wwwroot/
+
+# Local development settings
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment variables file (Optional - remove if not needed)
+.env
+
+# Other temporary and cache files
+*.log
+*.vs/
+*.swp
+*.*~
+*~
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# macOS specific
+.DS_Store
+
+# JetBrains Rider specific
+.idea/
+*.sln.iml
