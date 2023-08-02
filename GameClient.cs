@@ -49,4 +49,9 @@ new Game()
         game.Id = games.Max(game => game.Id) + 1;
         games.Add(game);
     }
+
+public static Game GetGame(int id)
+{
+    return games.FirstOrDefault(game => game.Id == id);
 }
+} 
